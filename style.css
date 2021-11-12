@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: rgb(161, 180, 174);
+}
+
+.main-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-game h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: #ffff;
+  margin-top: 30px;
+}
+
+.genius {
+  display: grid;
+  grid-template-areas:
+    "verde vermelho"
+    "amarelo azul";
+  grid-gap: 10px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 100%;
+  width: 560px;
+  height: 560px;
+
+  margin-bottom: 40px;
+}
+
+.blue {
+  grid-area: azul;
+  background-color: blue;
+  border-bottom-right-radius: 100%;
+  cursor: pointer;
+}
+
+.red {
+  grid-area: vermelho;
+  background-color: red;
+  border-top-right-radius: 100%;
+  cursor: pointer;
+}
+
+.yellow {
+  grid-area: amarelo;
+  background-color: yellow;
+  border-bottom-left-radius: 100%;
+  cursor: pointer;
+}
+
+.green {
+  grid-area: verde;
+  background-color: green;
+  border-top-left-radius: 100%;
+  cursor: pointer;
+}
+
+.selected {
+  opacity: 0.4;
+}
+
+.btn-iniciar {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+
+  cursor: pointer;
+  color: #ffff;
+  background: #ffff;
+  background-color: rgb(83, 155, 132);
+
+  padding: 8px 15px;
+  border-radius: 8px;
+  border: 1px solid #ffff;
+
+  position: absolute;
+  top: 110px;
+  right: 200px;
+
+  width: 100px;
+}
+
+.btn-iniciar:active {
+  background-color: #00ffff;
+}
