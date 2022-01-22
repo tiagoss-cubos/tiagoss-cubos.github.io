@@ -10,6 +10,10 @@ Nesse projeto, o desafio era criar o jogo Genius utilizando apenas HTML, CSS e J
 - [CSS básico](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started)
 - [Javascript básico](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction)
 
+### Acesse o link abaixo para jogar
+
+-[Genius](https://tiagoss-cubos.github.io)
+
 ### Implementações futuras:
 
 - [Refazer o projeto com o ReactJS](https://pt-br.reactjs.org/docs/getting-started.html#learn-react)
