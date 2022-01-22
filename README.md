@@ -12,7 +12,7 @@ Nesse projeto, o desafio era criar o jogo Genius utilizando apenas HTML, CSS e J
 
 ### Acesse o link abaixo para jogar
 
--[Genius](https://tiagoss-cubos.github.io)
+- [Genius](https://tiagoss-cubos.github.io)
 
 ### Implementações futuras:
 
